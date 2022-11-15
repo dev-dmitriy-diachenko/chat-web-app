@@ -1,0 +1,21 @@
+@import './mixins';
+@import './color-palette';
+@import './variables';
+
+%container {
+  @include on-tablet {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 34px;
+  }
+
+  @include on-desktop {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 120px;
+  }
+
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

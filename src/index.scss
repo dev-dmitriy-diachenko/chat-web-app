@@ -1,0 +1,10 @@
+@import './sass/reset';
+@import './sass/mixins';
+@import './sass/extends';
+@import './sass/typography';
+@import './sass/variables';
+@import './sass/color-palette';
+
+#root {
+  min-height: 100vh;
+}
