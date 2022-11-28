@@ -8,6 +8,7 @@
   ],
   "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
   "rules": {
+    "no-descending-specificity": null,
     "declaration-colon-newline-after": null,
     "value-list-comma-newline-after": null,
 
